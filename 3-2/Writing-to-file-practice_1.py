@@ -2,7 +2,7 @@ import sys
 
 date = sys.argv[1]
 
-file = open('file_vectorq', 'w')
+file = open('vectorq.exec', 'w')
 
 #Vector
 file.write("!/bin/csh")
@@ -29,4 +29,4 @@ file.write("'$filest'	#>>>>>Escribe fichero de densidad:"+ "\n")
 file.write("'$filestm'	#>>>>>Escribe fichero de densidad promedio:"+ "\n")
 file.write("'$filequ'	#>>>>>Escribe fichero Qu:"+ "\n")
 file.write("'$fileqv'	#>>>>>Escribe fichero Qv:"+ "\n")
-file.write("'$fileqdi'	#>>>>>Escribe fichero Qdi:"+ "\n")
+file.write("'$fileqdi'	#>>>>>Escribe fichero Qdi:")

@@ -5,12 +5,12 @@ set dendir = /Users/brownscholar/Documents/Intern/data/density/
 set auxdir = /Users/brownscholar/Documents/Intern/Data/aux/
 set outdir = /Users/brownscholar/Documents/Intern/Data/omega/
 set fileinfo = {$dir}info_pr.dat
-set filedh =  {$dhdir}/dynamic height_930113.gr
-set filest =  {$dendir}/density_930113.gr
-set filestm = {$auxdir}/st0/_930113_st0.dat
-set filequ =  {$outdir}/u/_930113_qu.gr
-set fileqv =  {$outdir}/v/_930113_qv.gr
-set fileqdi = {$auxdir}/qdi/_930113_qdi.gr
+set filedh =  {$dhdir}/dynamic height_930120.gr
+set filest =  {$dendir}/density_930120.gr
+set filestm = {$auxdir}/st0/_930120_st0.dat
+set filequ =  {$outdir}/u/_930120_qu.gr
+set fileqv =  {$outdir}/v/_930120_qv.gr
+set fileqdi = {$auxdir}/qdi/_930120_qdi.gr
 
 ./vectorq.exe << !
 '$fileinfo'	#>>>>>Escribe info file info.dat:

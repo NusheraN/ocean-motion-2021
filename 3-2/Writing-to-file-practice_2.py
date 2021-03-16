@@ -3,7 +3,7 @@ import sys
 
 date = sys.argv[1]
 
-om_file = open('file_omegainv', 'w')
+om_file = open('omegainv.exec', 'w')
 
 om_file.write("!/bin/csh")
 om_file.write("\n")
@@ -23,7 +23,7 @@ om_file.write("'$fileinfo' 	#>>>>>Escribe info file info.dat:"+ "\n")
 om_file.write("'$fileqdi' 	#>>>>>Escribe fichero de Div Q:"+ "\n")
 om_file.write("'$filestm'   	#>>>>>Escribe fichero de densidad promedio:"+ "\n")
 om_file.write("'ominput.dat'  #>>>>>Escribe fichero parametros (ominput.dat):"+ "\n")
-om_file.write("'$filew'	#>>>>>Escribe fichero Salida W:"+ "\n")
+om_file.write("'$filew'	#>>>>>Escribe fichero Salida W:")
 
 
 om_file.close()
