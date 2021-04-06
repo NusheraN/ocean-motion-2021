@@ -59,6 +59,7 @@ for dayIndex in range(time.shape[0]):
 		for y in range(0,158):
 			for z in range(0, 122):
 				dynamic_file.write("\t")
+				dynamic_file.write("%7f"%(zoData[x, y, z]*100))
 				dynamic_file.write("\n")
 
 	dynamic_file.close()
